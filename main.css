@@ -20,12 +20,12 @@ h2 {
 }
 
 .topnav {
-	background-color: #333;
+	background-color: #fcfcfc;
 	overflow: hidden;
 }
 
 .topnav a {
-	color:#f2f2f2;
+	color:#78c9ff;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -37,6 +37,6 @@ h2 {
 }
 
 .topnav a.active {
-	background-color: #4CAF50;
+	background-color: #78c9ff;
 	color: white;
 }
