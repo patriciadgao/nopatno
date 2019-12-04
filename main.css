@@ -25,6 +25,7 @@ h2 {
 }
 
 .topnav a {
+	float: left;
 	color:#78c9ff;
 	text-align: center;
 	padding: 14px 16px;
