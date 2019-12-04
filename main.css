@@ -4,6 +4,7 @@ body {
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: center;
   margin: 0;
+  background-color: #78c9ff;
 }
 
 p {
@@ -22,6 +23,8 @@ h2 {
 .topnav {
 	background-color: white;
 	overflow: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .topnav a {
@@ -51,5 +54,5 @@ h2 {
 .main-section {
 	background-color: #78c9ff;
 	padding-top: 14px;
-	margin: 0;
+	padding-bottom: 14px;
 }
