@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
 
 body {
-background-color: #78c9ff;
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: center;
 }
@@ -46,4 +45,8 @@ h2 {
 
 .logo {
 	background-color: white;
+}
+
+.main-section {
+	background-color: #78c9ff;
 }
