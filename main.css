@@ -20,6 +20,11 @@ h2 {
 	size: 2em;
 }
 
+h1, h2, h3, p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .topnav {
 	background-color: white;
 	overflow: hidden;
