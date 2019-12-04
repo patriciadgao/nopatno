@@ -13,3 +13,8 @@ p {
 h1 {
   font-family: 'Quattrocento Sans', sans-serif;
 }
+
+h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	size: 2em;
+}
