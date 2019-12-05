@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
 
+/*the beautiful blue is #78c9ff*/
+
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: center;
   margin: 0;
-  background-color: #78c9ff;
+  background-color: #e3f4ff;
 }
 
 p {
@@ -43,12 +45,12 @@ h1, h2, h3, p {
 }
 
 .topnav a:hover {
-	background-color: #e3edff;
+	background-color: #ebf7ff;
 	color: #26a9ff;
 }
 
 .topnav a.active {
-	background-color: #78c9ff;
+	background-color: #e3f4ff;
 	color: white;
 }
 
@@ -57,7 +59,6 @@ h1, h2, h3, p {
 }
 
 .main-section {
-	background-color: #78c9ff;
 	padding-top: 14px;
 	padding-bottom: 14px;
 }
