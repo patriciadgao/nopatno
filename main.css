@@ -6,7 +6,7 @@ body {
   font-family: 'Quattrocento Sans', sans-serif;
   text-align: center;
   margin: 0;
-  background-color: #e3f4ff;
+  background-color: white;
 }
 
 p {
@@ -28,7 +28,7 @@ h1, h2, h3, p {
 }
 
 .topnav {
-	background-color: white;
+	background-color: black;
 	overflow: hidden;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -36,7 +36,7 @@ h1, h2, h3, p {
 
 .topnav a {
 	float: left;
-	color: black;
+	color: white;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
@@ -45,13 +45,13 @@ h1, h2, h3, p {
 }
 
 .topnav a:hover {
-	background-color: #ebf7ff;
-	color: #26a9ff;
+	background-color: #e8e8e8;
+	color: black;
 }
 
 .topnav a.active {
-	background-color: #e3f4ff;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 .logo {
