@@ -48,8 +48,8 @@ h3 {
 }
 
 h1, h2, h3, p {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .topnav {
@@ -87,4 +87,6 @@ h1, h2, h3, p {
 .main-section {
 	padding-top: 14px;
 	padding-bottom: 14px;
+	text-align: center;
+	display: inline-block;
 }
