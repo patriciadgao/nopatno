@@ -9,6 +9,10 @@ body {
   background-color: white;
 }
 
+div.text-box {
+	max-width: 550px;
+}
+
 img.logo {
 	min-width: 100px;
 	width: 50%;
