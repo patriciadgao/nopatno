@@ -15,6 +15,10 @@ div.text-box {
 	padding-right: 30px;
 }
 
+div.text-box.left {
+	text-align: left;
+}
+
 img.logo {
 	min-width: 100px;
 	width: 50%;
@@ -25,6 +29,9 @@ img.comic {
 	min-width: 400px;
 	width: 50%;
 	max-width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .turtle {
@@ -34,6 +41,7 @@ img.comic {
 
 p {
   font-family: 'Quattrocento Sans', sans-serif;
+  line-height: 20px;
 }
 
 h1 {
