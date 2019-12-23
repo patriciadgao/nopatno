@@ -103,6 +103,11 @@ h3 {
 	color: black;
 }
 
+a.secret-link {
+	text-decoration: none;
+	cursor: default;
+}
+
 .main-section {
 	padding-top: 14px;
 	padding-bottom: 14px;
