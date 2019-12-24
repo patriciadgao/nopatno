@@ -130,7 +130,7 @@ h3 {
 
 a.secret-link {
 	text-decoration: none;
-	cursor: default;
+	cursor: text;
 	color: black;
 }
 
