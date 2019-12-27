@@ -55,7 +55,7 @@ img.arrow {
 	}
 
 	img.comic.thin {
-		width: 427px;
+		width: 247px;
 	}
 
 	img.comic.thin2 {
@@ -240,11 +240,6 @@ a.secret-link {
     position: absolute;
     transform: scale(0);
 }
-
-/*.slide img {
-    width: 100%;
-    height: 100%;
-}*/
 
 .nav label {
     width: 200px;
