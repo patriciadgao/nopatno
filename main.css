@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Capriola&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Krub:300,300i,400,400i&display=swap');
 /*the beautiful blue is #78c9ff*/
 
 html {
@@ -7,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Capriola', sans-serif;
+  font-family: 'Krub', sans-serif;
   text-align: center;
   margin: 0;
   background-color: none;
@@ -43,37 +44,114 @@ img.logo {
 	max-width: 550px;
 }
 
+img.arrow {
+	width: 20px;
+	padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+	img.comic {
+		width: 350px;
+	}
+
+	img.comic.thin {
+		width: 427px;
+	}
+
+	img.comic.thin2 {
+		width: 206px;
+	}
+
+	img.comic.thin3 {
+		width: 288px;
+	}
+
+	h3 {
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+	p {
+  		line-height: 1.4;
+  		font-size: 14px;
+	}
+
+	.slides, .slide {
+		width: 400px;
+		height: 525px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	img.comic {
+		width: 425px;
+	}
+
+	img.comic.thin {
+		width: 300px;
+	}
+
+	img.comic.thin2 {
+		width: 250px;
+	}
+
+	img.comic.thin3 {
+		width: 350px;
+	}
+
+	h3 {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	p {
+  		line-height: 1.4;
+  		font-size: 16px;
+	}
+
+	.slides, .slide {
+		width: 500px;
+		height: 650px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	img.comic {
+		width: 500px;
+	}
+
+	img.comic.thin {
+		width: 353px;
+	}
+
+	img.comic.thin2 {
+		width: 294px;
+	}
+
+	img.comic.thin3 {
+		width: 412px;
+	}
+
+	h3 {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	p {
+  		line-height: 1.4;
+  		font-size: 16px;
+	}
+
+	.slides, .slide {
+		width: 600px;
+		height: 750px;
+	}
+}
+
 img.comic {
-	min-width: 425px;
-	width: 50%;
-	max-width: 550px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	padding-bottom: 10px;
-}
-
-img.comic-thin {
-	width: 300px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 10px;
-}
-
-img.comic-thin2 {
-	width: 250px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 10px;
-}
-
-img.comic-thin3 {
-	width: 350px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	padding-bottom: 10px;
 }
 
@@ -82,23 +160,17 @@ img.comic-thin3 {
   max-width: 250px;
 }
 
-p, h1, h2, h3 {
+h1, h2, h3 {
 	font-family: 'Capriola', sans-serif;
 }
 
 p {
-  line-height: 1.4;
-  font-size: 16px;
+	font-family: 'Krub', sans-serif;
 }
 
 h2 {
 	font-size: 18px;
 	font-weight: 600;
-}
-
-h3 {
-	font-size: 14px;
-	font-weight: 400;
 }
 
 .topnav {
@@ -139,4 +211,80 @@ a.secret-link {
 	padding-bottom: 14px;
 	text-align: center;
 	display: inline-block;
+}
+
+.slides {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+}
+
+/*.slide img {
+    width: 100%;
+    height: 100%;
+}*/
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+      opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    /*transition: opacity .2s;*/
+
+    color: transparent;
+    font-size: 50px;
+    text-align: center;
+    line-height: 700px;
+    font-family: "Capriola", sans-serif;
+    background-color: none;
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+label {
+	font-family: 'Capriola', sans-serif;
+}
+
+label:hover {
+	cursor: pointer;
 }
