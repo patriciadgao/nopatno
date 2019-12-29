@@ -1,9 +1,78 @@
 @import url('https://fonts.googleapis.com/css?family=Capriola&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400&display=swap');/*the beautiful blue is #78c9ff*/
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400&display=swap');
+/*the beautiful blue is #78c9ff*/
 
 html {
 	background-image: linear-gradient(#78c9ff,#c2e7ff,#78c9ff);
 	height: 100%;
+}
+
+ol {
+	padding-right: 10px;
+	padding-left: none;
+	font-weight: 600;
+}
+
+button {
+	border-radius: 10px;
+}
+
+.collapsible {
+	cursor: pointer;
+	font-size: 15px;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 300px;
+	background-color: transparent;
+}
+
+.active, .collapsible:hover {
+	color: #39b1ff;
+	background-color: #c2e7ff;
+}
+
+.content {
+	padding: 0 18px;
+	overflow: hidden; 
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
+
+img.arrow {
+	width: 20px;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+i {
+	font-style: italic;
+}
+
+s {
+	text-decoration: line-through;
+}
+
+a {
+	color: #45b5ff;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #ff69c3;
+}
+
+a:visited {
+	color: #0085df;
+}
+
+a:visited:hover {
+	color: #ff69c3;
+}
+
+b {
+	font-weight: 600;
 }
 
 body {
@@ -26,7 +95,8 @@ div.card-thing {
 	border-radius: 0px 10px 10px 10px;
 	margin-left: 10px;
 	margin-right: 10px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 	margin-bottom: 10px;
 }
 
@@ -44,9 +114,9 @@ img.logo {
 	max-width: 550px;
 }
 
-img.arrow {
-	width: 20px;
-	padding-bottom: 15px;
+img.contact-icon {
+	height: 20px;
+	padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -71,14 +141,14 @@ img.arrow {
 		font-weight: 400;
 	}
 
-	p {
+	p, ul, ol {
   		line-height: 1.4;
   		font-size: 14px;
 	}
 
 	.slides, .slide {
 		width: 400px;
-		height: 525px;
+		height: 550px;
 	}
 }
 
@@ -104,14 +174,14 @@ img.arrow {
 		font-weight: 400;
 	}
 
-	p {
+	p, ul, ol {
   		line-height: 1.4;
   		font-size: 16px;
 	}
 
 	.slides, .slide {
 		width: 500px;
-		height: 650px;
+		height: 700px;
 	}
 }
 
@@ -137,14 +207,14 @@ img.arrow {
 		font-weight: 400;
 	}
 
-	p {
+	p, ul, ol {
   		line-height: 1.4;
   		font-size: 16px;
 	}
 
 	.slides, .slide {
 		width: 600px;
-		height: 750px;
+		height: 800px;
 	}
 }
 
@@ -181,13 +251,14 @@ h2 {
 
 .topnav a {
 	float: left;
-	color: black;
+	color: #39b1ff;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
 	border-radius: 5px 5px 0px 0px;
 	background-color: #c2e7ff;
 	margin-right: 5px;
+	font-weight: 400;
 }
 
 .topnav a:hover {
