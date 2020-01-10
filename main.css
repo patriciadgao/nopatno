@@ -17,6 +17,10 @@ button {
 	border-radius: 10px;
 }
 
+img.comic.page {
+	width: 314px;
+}
+
 .collapsible {
 	cursor: pointer;
 	font-size: 15px;
