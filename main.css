@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400&display=swap');
 /*the beautiful blue is #78c9ff*/
 
+* {
+	outline: none;
+}
+
 html {
 	background-image: linear-gradient(#78c9ff,#c2e7ff,#78c9ff);
 	height: 100%;
