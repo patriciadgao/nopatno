@@ -30,6 +30,7 @@ button.nav-btn {
 
 button.nav-btn:hover {
 	background-color: #c2e7ff;
+	cursor: pointer;
 }
 
 img.comic.page {
