@@ -322,11 +322,13 @@ a.secret-link {
 	border-radius: 12px;
 	border: none;
 	font-family: 'Rubik', sans-serif;
-	background-color: #78c9ff;
+	background-color: #c2e7ff;
+	color: #11a2ff;
 }
 
 .cave-card:hover {
-	background-image: linear-gradient(#c2e7ff,#fff, #c2e7ff);
-	color: #11a2ff;
+	background: #78c9ff;
+	color: black;
 	cursor: pointer;
+	transition: background 0.25s;
 }
