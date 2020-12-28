@@ -17,6 +17,12 @@ h6 {
 	font-style: italic;
 }
 
+h1 {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+
 ol {
 	padding-right: 10px;
 	padding-left: none;
