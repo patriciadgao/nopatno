@@ -330,7 +330,7 @@ a.secret-link {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: stretch;
-	max-width: 75%;
+	max-width: 85%;
 }
 
 .cave-card {
@@ -340,13 +340,27 @@ a.secret-link {
 	border-radius: 12px;
 	border: none;
 	font-family: 'Rubik', sans-serif;
+}
+
+.generic {
 	background-color: #c2e7ff;
 	color: #11a2ff;
 }
 
-.cave-card:hover {
+.generic:hover {
 	background: #78c9ff;
 	color: black;
 	cursor: pointer;
 	transition: background 0.25s;
+}
+
+.here {
+	background-color: #78c9ff;
+	color: #0b8bde;
+}
+
+.here:hover {
+	background: #78c9ff;
+	color: #0b8bde;
+	cursor: pointer;
 }
