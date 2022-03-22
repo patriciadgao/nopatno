@@ -79,15 +79,15 @@ a {
 }
 
 a:hover {
-	color: #11a2ff;
+	color: #ff69c3;
 }
 
 a:visited {
-	color: #d42c80;
+	color: #0085df;
 }
 
 a:visited:hover {
-	color: #11a2ff;
+	color: #ff69c3;
 }
 
 b {
